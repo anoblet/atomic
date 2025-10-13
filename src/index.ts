@@ -17,6 +17,14 @@ export const index = css`
     align-self: flex-end;
   }
 
+  .flex {
+    display: flex;
+
+    &.grow {
+      flex-grow: 1;
+    }
+  }
+
   .flex-wrap {
     flex-wrap: wrap;
   }
@@ -51,6 +59,23 @@ export const index = css`
 
   .font-weight-800 {
     font-weight: 800;
+  }
+
+  .gap {
+    gap: 1rem;
+  }
+
+  /** Opinion */
+  .column {
+    flex-direction: column;
+  }
+
+  .scroll {
+    overflow: auto;
+  }
+
+  ul {
+    margin: 0;
   }
 `;
 
