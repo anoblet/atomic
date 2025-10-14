@@ -1,4 +1,4 @@
-import { css } from "lit";
+import { css } from 'lit';
 
 export const index = css`
   .align-content-space-around {
@@ -72,6 +72,16 @@ export const index = css`
 
   .scroll {
     overflow: auto;
+  }
+
+  a {
+    color: oklch(0.953 0.051 180.801);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   ul {
