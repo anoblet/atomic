@@ -72,6 +72,19 @@ export const index = css`
 
   .scroll {
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll-y {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   a {
@@ -80,6 +93,7 @@ export const index = css`
 
     &:hover,
     &:focus {
+      color: oklch(0.91 0.096 180.426);
       text-decoration: underline;
     }
   }
