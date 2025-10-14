@@ -66,6 +66,13 @@ export const index = css`
   }
 
   /** Opinion */
+  .flex {
+    .center {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   .column {
     flex-direction: column;
   }
