@@ -65,6 +65,10 @@ export const index = css`
     gap: 1rem;
   }
 
+  .grid {
+    display: grid;
+  }
+
   /** Opinion */
   .flex {
     .center {
