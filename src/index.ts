@@ -114,6 +114,55 @@ export const index = css`
     margin: 0;
     padding: 0;
   }
+
+  /* Tailwind-like Utilities */
+  .flex-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .p-4 {
+    padding: 1rem;
+  }
+  .m-4 {
+    margin: 1rem;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .overflow-auto {
+    overflow: auto;
+  }
+  .box-border {
+    box-sizing: border-box;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .min-h-0 {
+    min-height: 0;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 `;
 
 export default index;
