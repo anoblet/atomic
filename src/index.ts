@@ -1,6 +1,9 @@
 import { css } from 'lit';
+import { golden } from './golden.ts';
 
 export const index = css`
+  ${golden}
+
   .align-content-space-around {
     align-content: space-around;
   }
@@ -99,13 +102,15 @@ export const index = css`
   }
 
   a {
-    color: oklch(0.953 0.051 180.801);
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: oklch(0.91 0.096 180.426);
       text-decoration: underline;
+    }
+
+    &:visited {
+      color: inherit;
     }
   }
 
@@ -162,6 +167,23 @@ export const index = css`
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  /* Added Utilities */
+  .relative {
+    position: relative;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  [hidden] {
+    display: none !important;
   }
 `;
 

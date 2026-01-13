@@ -19,9 +19,25 @@ import { css } from 'lit';
 static styles = [atomicStyles, css`...`];
 ```
 
-## Utilities
+## Development
 
-### Flexbox
+To build the package:
+
+```bash
+pnpm build
+```
+
+To run tests:
+
+```bash
+pnpm test
+```
+
+## Specifications
+
+### Utility Classes
+
+#### Flexbox
 
 - `.flex`: `display: flex`
 - `.flex.grow`: `flex-grow: 1`
@@ -35,29 +51,29 @@ static styles = [atomicStyles, css`...`];
 - `.align-self-flex-end`: `align-self: flex-end`
 - `.flex .center`: `align-items: center; justify-content: center`
 
-### Grid
+#### Grid
 
 - `.grid`: `display: grid`
 
-### Typography
+#### Typography
 
 - `.font-weight-{100-800}`: Sets font weight
 - `.text-center`: `text-align: center`
 - `a`: Styled links with hover effects
 
-### Spacing
+#### Spacing
 
 - `.gap`: `gap: 1rem`
 - `.p-4`: `padding: 1rem`
 - `.m-4`: `margin: 1rem`
 
-### Sizing
+#### Sizing
 
 - `.w-full`: `width: 100%`
 - `.h-full`: `height: 100%`
 - `.min-h-0`: `min-height: 0`
 
-### Layout & Scrolling
+#### Layout & Scrolling
 
 - `.box-border`: `box-sizing: border-box`
 - `.sr-only`: Screen reader only (visually hidden)

@@ -1,6 +1,3 @@
 {
-    "recommendations": [
-        "esbenp.prettier-vscode",
-        "runem.lit-plugin"
-    ]
+  "recommendations": ["esbenp.prettier-vscode", "runem.lit-plugin"]
 }
