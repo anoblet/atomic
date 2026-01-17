@@ -17,6 +17,7 @@ Stable
 - [x] Spacing utilities (gap, padding, margin)
 - [x] Sizing utilities (width, height, min-height)
 - [x] Layout & Scrolling utilities (box-sizing, sr-only, overflow handling)
+- [x] Shared Design Tokens (Golden Ratio)
 
 ## Architecture
 

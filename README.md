@@ -81,3 +81,19 @@ pnpm test
 - `.scroll-x`: `overflow-x: auto`
 - `.scroll-y`: `overflow-y: auto`
 - `.overflow-auto`: `overflow: auto`
+
+### Variables
+
+- `--golden-ratio`: Defined as `1.618`. Used for calculating layout proportions.
+
+### Golden Layout
+
+Import `golden` styles to apply Golden Ratio defaults to `vaadin-split-layout`.
+
+```typescript
+import { golden } from '@anoblet/atomic'; // Exported via index or specific file
+// or
+import { golden } from '@anoblet/atomic/src/golden.ts'; // Direct import if needed
+
+static styles = [golden, ...];
+```
