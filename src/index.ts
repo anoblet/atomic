@@ -148,6 +148,15 @@ export const index = css`
   .overflow-auto {
     overflow: auto;
   }
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+  .whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .break-all {
+    word-break: break-all;
+  }
   .box-border {
     box-sizing: border-box;
   }
