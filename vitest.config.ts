@@ -1,8 +1,15 @@
+import { fileURLToPath } from 'node:url';
+
 import { defineConfig } from 'vitest/config';
 
+const packageRoot = fileURLToPath(new URL('.', import.meta.url));
+
 export default defineConfig({
+  root: packageRoot,
   test: {
-    environment: 'node',
+    environment: 'jsdom',
     include: ['tests/**/*.test.ts'],
+    exclude: ['**/tests/playwright/**', '**/*.spec.ts'],
+    setupFiles: ['../client/tests/setup.ts'],
   },
 });
