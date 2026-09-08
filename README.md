@@ -1,4 +1,4 @@
-# @anoblet/atomic
+# Atomic (@anoblet/atomic)
 
 A shared atomic CSS library for the `@anoblet` ecosystem.
 
