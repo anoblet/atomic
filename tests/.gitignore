@@ -1,0 +1,7 @@
+# Immediate entries only; child directories own their allowlists.
+/*
+
+!/.gitignore
+!/colors.test.ts
+!/index.test.ts
+!/readme.md

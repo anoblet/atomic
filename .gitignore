@@ -1,2 +1,14 @@
-.env
-node_modules
+# Immediate entries only; child directories own their allowlists.
+/*
+
+!/.gitignore
+!/.vscode
+!/README.md
+!/package.json
+!/pnpm-lock.yaml
+!/readme.md
+!/specification.md
+!/src
+!/tests
+!/tsconfig.json
+!/vitest.config.ts
